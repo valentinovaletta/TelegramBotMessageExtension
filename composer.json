@@ -1,0 +1,6 @@
+{
+    "name": "valentino/composer",
+    "require": {
+        "monolog/monolog": "1.*"
+    }
+}
