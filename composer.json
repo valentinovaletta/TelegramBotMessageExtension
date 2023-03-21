@@ -1,6 +1,7 @@
 {
     "name": "valentino/composer",
     "require": {
-        "monolog/monolog": "1.*"
+        "monolog/monolog": "^3",
+        "psr/log": "^3.0"
     }
 }

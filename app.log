@@ -1,2 +1,5 @@
 [2023-01-03 19:02:22] name.WARNING: Foo [] []
-[2023-01-08T12:08:30.411395+01:00] name.WARNING: New Warning [] []
+[2023-01-08T12:08:30.411395+01:00] name.WARNING: New Warning []
+[2023-01-09 12:07:02] name.WARNING: add Warning [] []
+[2023-01-09 12:07:16] name.WARNING: add Warning [] []
+[2023-01-09T12:10:53.266055+01:00] name.WARNING: add v3 Warning [] []
