@@ -3,5 +3,10 @@
     "require": {
         "monolog/monolog": "^3",
         "psr/log": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TestLib\\TestClass\\": "lib"
+        }
     }
 }
