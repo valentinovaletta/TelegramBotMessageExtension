@@ -2,7 +2,7 @@
     "name": "valentino/telegram-bot-message-extension",
     "description": "A bot can send messages that will expire after some time. Create a message queue. Update different types of messages.",
     "type": "library",
-    "version" : "0.0.1",
+    "version" : "1.0.0",
     "keywords" : [
         "telegram", 
         "bot", 
