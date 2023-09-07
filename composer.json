@@ -23,5 +23,6 @@
         "name": "Vasilev Valentin",
         "homepage": "https://t.me/vasilevalentin"
       }
-    ]
+    ],
+    "minimum-stability": "stable"
 }
