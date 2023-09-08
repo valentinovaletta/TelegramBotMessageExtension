@@ -4,8 +4,8 @@
 require __DIR__ . '/vendor/autoload.php';
 use TelegramBotMessageExtension\Message;
 
-$id = 494963311; // telegram channel id
-$token = '5111024503:AAFhDgDyZ3n1hgHKPtfXb8qlZDacVhRBVJ0'; // telegram bot token 
+$id = 0; // telegram channel id
+$token = ''; // telegram bot token 
 
 $message = new Message($token, $id);
 
