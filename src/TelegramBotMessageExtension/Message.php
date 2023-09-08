@@ -38,7 +38,7 @@ class Message
 
     private function sendRequest($method, $param=[]) {
         $url = "https://api.telegram.org/bot$this->token/$method?";
-        echo PHP_EOL.$url .= http_build_query($param);
+        $url .= http_build_query($param);
         $ch = curl_init();
         $optArray = array(
                 CURLOPT_URL => $url,

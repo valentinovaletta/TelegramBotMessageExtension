@@ -1,6 +1,5 @@
 <?php
 
-//require_once('src/TelegramBotMessageExtension/Message.php');
 require __DIR__ . '/vendor/autoload.php';
 use TelegramBotMessageExtension\Message;
 
@@ -10,10 +9,10 @@ $token = ''; // telegram bot token
 $message = new Message($token, $id);
 
 //send single text message
-//$singleMessage = $message->sendSingleMessage("<b>Hi!</b>\n<i>There</i>\n", "HTML");
+$singleMessage = $message->sendSingleMessage("<b>Hi!</b>\n<i>There</i>\n", "HTML");
 
 //send sticker
-//$sticker = $message->sendSticker('CAACAgIAAxkBAAETkGNiblYnE7xLE5GJ1kABRAaf3WTd4QACrxQAAs7y2UmyHBuHGFJROCQE');
+$sticker = $message->sendSticker('CAACAgIAAxkBAAETkGNiblYnE7xLE5GJ1kABRAaf3WTd4QACrxQAAs7y2UmyHBuHGFJROCQE');
 
 //send three messages that replace each other
 //parameter must be an array of arrays, that describes each message. [[],[],[]]
