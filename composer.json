@@ -15,8 +15,7 @@
         }
     },
     "require": {
-        "php": ">=7.3.0",
-        "composer": "*"
+        "php": ">=7.3.0"
     },
     "license": "MIT",
     "authors": [
