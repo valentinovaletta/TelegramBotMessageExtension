@@ -1,5 +1,5 @@
 # telegram-bot-message-extension 
-# allows you to send telegram messages that will expire and disappear after some time and create a message queue.
+# allows you to create a message queue, send telegram messages that will expire and disappear after some time.
 
 ## Install the latest version with
 ```
