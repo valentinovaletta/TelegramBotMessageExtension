@@ -1,5 +1,5 @@
-# telegram-bot-message-extension allows you to send telegram messages that will expire and disapear after some time.
-# Create a message queue.
+# telegram-bot-message-extension 
+# allows you to send telegram messages that will expire and disappear after some time and create a message queue.
 
 ## Install the latest version with
 ```
@@ -7,7 +7,7 @@ $ composer require valentino/telegram-bot-message-extension
 ```
 ## Basic Usage
 
-```
+```php
 <?php
 
 use TelegramBotMessageExtension\Message;
